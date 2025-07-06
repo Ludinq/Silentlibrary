@@ -1,0 +1,149 @@
+<!-- books.html (Books List) -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../styles/styles.css" />
+  </head>
+  <body>
+    <div class="page-wrapper">
+      <!--#include file="header.html" -->
+      <div id="header-placeholder"></div>
+    <main class="container mt-4">
+      <h2>Books List</h2>
+      <div class="row">
+              <!-- 🔍 Right: Filter Section -->
+    <div class="col-md-4">
+      <h3>🔍 Filter Books</h3>
+      <form id="book-filter-form">
+        <div class="mb-3">
+
+        <div class="mb-3">
+          <label for="year-select" class="form-label">Published Year</label>
+          <select class="form-select" id="year-select">
+            <option value="">All Years</option>
+            <option value="2025">2025</option>
+            <option value="2023">2023</option>
+            <option value="1990">1990</option>
+          </select>
+        </div>
+
+        <div class="mb-3">
+          <label for="search-input" class="form-label">Search Title or Author</label>
+          <input type="text" class="form-control" id="search-input" placeholder="e.g. Hazelwood" />
+        </div>
+
+        <button type="submit" class="btn btn-primary">Apply Filter</button>
+      </form>
+    </div>
+    <!-- book section -->
+      <div class="col-md-8">        
+        <div class="d-flex flex-column gap-3">
+          <div class="card" data-year="1990" data-author="Elaine Stephens">
+            <img
+              src="https://m.media-amazon.com/images/I/91Hc0aoPmkL._SY385_.jpg"
+              class="img-fluid"
+              alt="whispers of the mind"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Whispers of the Mind</h5>
+              <p class="card-text">Elaine Stephens, 1990</p>
+              <a href="bookdetail.html?id=book1" class="stretched-link"></a>
+            </div>
+          </div>
+
+          <div class="card" data-year="2025" data-author="Ali Hazelwood">
+            <img
+              src="https://books.google.com.sg/books/publisher/content?id=uvoFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE731uzdrvMu7vrDn3kiKBvlqhcQf9rLZNvfFNePvi1L1dobm2H-ERpk2LxulheF4fKtXpUGovVzz_8RHENS2aWELhX8HyRHaCcbzjgXQS5NbNXg_DPv8fD-Bxb9cgnzxEwSiy-kC"
+              class="img-fluid"
+              alt="Deep End"
+            />
+            <div class="card-body">
+              <h5 class="card-title">Deep End</h5>
+              <p class="card-text">Ali Hazelwood, 2025</p>
+              <a href="bookdetail.html?id=book2" class="stretched-link"></a>
+              </div>
+            </div>
+            <div class="card" data-year="2023" data-author="Evie Woods">
+              <img
+                src="https://m.media-amazon.com/images/I/91Sy3S-198L._SY385_.jpg"
+                class="img-fluid"
+                alt="The Lost Bookshop"
+              />
+              <div class="card-body">
+                <h5 class="card-title">The Lost Bookshop</h5>
+                <p class="card-text">Evie Woods, 2023</p>
+                <a href="bookdetail.html?id=book3" class="stretched-link"></a>
+                </div>
+              </div>
+              <div class="card">
+                <img
+                  src="placeholder.jpg"
+                  class="img-fluid"
+                  alt="placeholder"
+                />
+                <div class="card-body">
+                  <h5 class="card-title">placeholder</h5>
+                  <p class="card-text">placeholder, 2025</p>
+                  </div>
+                </div>
+                <div class="card">
+                  <img
+                    src="placeholder.jpg"
+                    class="img-fluid"
+                    alt="placeholder"
+                  />
+                  <div class="card-body">
+                    <h5 class="card-title">placeholder</h5>
+                    <p class="card-text">placeholder, 2025</p>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <img
+                      src="placeholder.jpg"
+                      class="img-fluid"
+                      alt="placeholder"
+                    />
+                    <div class="card-body">
+                      <h5 class="card-title">placeholder</h5>
+                      <p class="card-text">placeholder, 2025</p>
+                      </div>
+                    </div>
+                    <div class="card">
+                      <img
+                        src="placeholder.jpg"
+                        class="img-fluid"
+                        alt="placeholder"
+                      />
+                      <div class="card-body">
+                        <h5 class="card-title">placeholder</h5>
+                        <p class="card-text">placeholder, 2025</p>
+                        </div>
+                      </div>
+                      <div class="card">
+                        <img
+                          src="placeholder.jpg"
+                          class="img-fluid"
+                          alt="placeholder"
+                        />
+                        <div class="card-body">
+                          <h5 class="card-title">placeholder</h5>
+                          <p class="card-text">placeholder, 2025</p>
+                          </div>
+                        </div>
+          </div>
+        </div>
+      </div>
+
+
+  </div>
+</main>
+    <!--#include file="footer.html" -->
+    <div id="footer-placeholder"></div>
+    <script src="../scripts/script.js"></script>
+    <script src="../scripts/bookdetail.js"></script>
+  </body>
+</html>

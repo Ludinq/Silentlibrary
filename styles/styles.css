@@ -1,0 +1,88 @@
+/* Header styles */
+.site-header {
+  background-color: #faf3e0;
+  padding: 10px 0;
+  min-height: 60px;
+}
+
+.navbar {
+  background-color: transparent !important;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.silentlibrary-logo img {
+  height: 40px;
+  margin-right: 10px;
+}
+
+.silentlibrary-logo.active img {
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.4);
+  border-radius: 4px;
+}
+
+.custom-search {
+  width: 400;
+  min-width: 300px;
+  flex: 1 1 auto;
+}
+
+form.d-flex {
+  flex-grow: 1;
+  gap: 10px;
+}
+
+.nav-nav {
+  display: flex;
+  gap: 15px;
+}
+
+.nav-links a {
+  color: #1a1a40;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.page-wrapper {
+  min-height: 100vh; /* full viewport height */
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1; /* takes up all available space */
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.site-footer {
+  background-color: #faf3e0 !important;
+  color: #333;
+  font-size: 0.9rem;
+  padding: 1rem;
+}
+
+.feedback-form {
+  max-width: 600px;
+  margin: 0; /* removes all margin */
+}
+
+.card-img-top {
+  height: 200px;
+  object-fit: cover;
+}
