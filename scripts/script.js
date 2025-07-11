@@ -26,7 +26,7 @@ function loadHeaderFooter() {
       const logoImg = document.getElementById("logo-img");
       const homeLink = document.getElementById("home-link");
 
-      if (logoImg) logoImg.src = prefix + "assets/sl.png";
+      if (logoImg) logoImg.src = prefix + "assets/sl.avif";
       if (homeLink) homeLink.href = prefix + "index.html";
       // Adjust header links
       adjustNavLinks(prefix);
@@ -40,5 +40,4 @@ function loadHeaderFooter() {
       adjustNavLinks(prefix); // <-- adjust footer links here!
     });
 }
-
 document.addEventListener("DOMContentLoaded", loadHeaderFooter);

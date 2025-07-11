@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       year: 1990,
       description:
         "Elaborates the techniques of self-hypnosis and hypnotic regression to help individuals fully utilize their brain's creative powers to uncover possible past lives",
-      image: "https://m.media-amazon.com/images/I/91Hc0aoPmkL._SY385_.jpg",
+      image: "/assets/whisper.avif",
     },
 
     book2: {
@@ -18,8 +18,7 @@ document.addEventListener("DOMContentLoaded", () => {
       year: 2025,
       description:
         "A competitive diver and an ace swimmer jump into forbidden waters in this steamy college romance from the New York Times bestselling author of The Love Hypothesis.",
-      image:
-        "https://books.google.com.sg/books/publisher/content?id=uvoFEQAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&imgtk=AFLRE731uzdrvMu7vrDn3kiKBvlqhcQf9rLZNvfFNePvi1L1dobm2H-ERpk2LxulheF4fKtXpUGovVzz_8RHENS2aWELhX8HyRHaCcbzjgXQS5NbNXg_DPv8fD-Bxb9cgnzxEwSiy-kC",
+      image: "/assets/deepend.avif",
     },
 
     book3: {
@@ -28,7 +27,7 @@ document.addEventListener("DOMContentLoaded", () => {
       year: 2023,
       description:
         "The Keeper of Stories meets The Lost Apothecary in this evocative and charming novel full of mystery and secrets.",
-      image: "https://m.media-amazon.com/images/I/91Sy3S-198L._SY385_.jpg",
+      image: "/assets/lost.avif",
     },
     // ... other books here ...
   };
